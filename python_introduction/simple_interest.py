@@ -12,7 +12,7 @@ p = principal
 r = rate
 t = time
 
-i =(p*r*t)
+i =(r*t*p)
 
 interest = i 
 
