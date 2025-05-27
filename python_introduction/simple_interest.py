@@ -4,11 +4,13 @@
 #( R ) is the annual interest rate (as a decimal),
 #( T ) is the time the money is invested for in years.
 
-p = 1000
-r  = 0.05 
-t = 3 
+principal = 1000
+rate  = 0.05 
+time = 3 
 
-
+p = principal
+r = rate
+t = time
 
 interest = float(p*r*t)
 
