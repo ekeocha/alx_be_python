@@ -4,10 +4,12 @@
 #( R ) is the annual interest rate (as a decimal),
 #( T ) is the time the money is invested for in years.
 
-principal = 1000
-rate  = 0.05 
-time = 3 
+p = 1000
+r  = 0.05 
+t = 3 
 
-interest = (principal*rate*time)
+
+
+interest = float(p*r*t)
 
 print("The simple interest is: ", interest)
