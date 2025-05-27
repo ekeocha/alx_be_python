@@ -12,6 +12,8 @@ p = principal
 r = rate
 t = time
 
-interest = float(p*r*t)
+i =(p*r*t)
+
+interest = i 
 
 print("The simple interest is: ", interest)
