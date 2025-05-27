@@ -5,14 +5,9 @@
 #( T ) is the time the money is invested for in years.
 
 principal = 1000
-rate  = 0.05 
-time = 3 
+rate = 0.05  # Already in decimal
+time = 3
 
-p = principal
-r = rate
-t = time
+interest = principal * rate * time
 
-interest =(time * principal * rate)
-
-
-print("The simple interest is: ", interest)
+print("The simple interest is:", interest)
