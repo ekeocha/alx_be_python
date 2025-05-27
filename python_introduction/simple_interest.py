@@ -5,9 +5,9 @@
 #( T ) is the time the money is invested for in years.
 
 principal = 1000
-rate  =  0.05
+rate  = float(0.05) 
 time = 3 
 
-Interest = float(principal*rate*time)
+Interest = (principal*rate*time)
 
 print("the simple interst is ", Interest)
