@@ -12,8 +12,7 @@ p = principal
 r = rate
 t = time
 
-i =(r*t*p)
+interest =(time * principal * rate)
 
-interest = i 
 
 print("The simple interest is: ", interest)
