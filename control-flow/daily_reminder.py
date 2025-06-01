@@ -18,7 +18,6 @@ match priority:
         print(f"Low Priority Task: {task}")
         if time_bound == "yes":
             print("This task requires immediate attention today!")
-    case _:
-        print(f"Task: {task} (Priority not recognized)")
+   
       
 
