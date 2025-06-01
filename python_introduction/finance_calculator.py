@@ -1,11 +1,14 @@
-#: Use user input, variables, and arithmetic operations to calculate and provide feedback on a user’s monthly savings and potential future savings without applying conditional statements.
+#I want to know if an item is on the shoppin list
 
-monthly_income = int (input("Enter your monthly income: "))
-monthly_expenses = int (input("Enter your total monthly expenses: "))
+item_shop = ["apple","orange","grape"]
+item_found = False
 
-monthly_savings = monthly_income - monthly_expenses
-
-Projected_Savings = (monthly_savings * 12) + (monthly_savings * 12 * 0.05)
-
-print("Your monthly savings is:",monthly_savings)
-print("Projected savings after one year, with interest, is:",Projected_Savings)
+while not item_found:
+ item = input("Find Item (use q to exit)").lower()
+ if item == "q":
+  break
+ if item in item_shop:
+    item_found = True
+    print(f"{item} is in the shopping list")
+ else: 
+   print(f"{item} not on the list")      
