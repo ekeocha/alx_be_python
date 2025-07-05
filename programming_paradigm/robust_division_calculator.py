@@ -1,10 +1,11 @@
 def safe_divide(numerator, denominator):
 
     try:
-        num = float(numerator)
-        den = float (denominator)
+        try:
+        numerator = float(numerator)        
+        denominator = float(denominator) 
 
-        result = num / den
+        result = numerator / denominator
         return f"Result: {result}"
         
     except ZeroDivisionError:
