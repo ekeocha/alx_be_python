@@ -25,7 +25,9 @@ class PrintBook(Book):
 
     def get_details(self):
         return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
-
+    
+    def __str__(self):
+        return self.get_details()
 
 class Library:
     def __init__(self):
